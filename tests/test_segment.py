@@ -2,7 +2,7 @@ from pytest import approx
 from functools import reduce
 from operator import add
 from shadow.polyedr import Segment
-
+#rff
 
 def flatten(list):
     return [s for s in reduce(add, list, []) if not s.is_degenerate()]
